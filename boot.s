@@ -208,7 +208,7 @@ lcd_wait:
   pha
   lda #%00000000  ; Port B is input
   sta DDRB
-  jmp lcdnusy
+  jmp lcdbusy
 
 lcdbusy:
   lda #RW
