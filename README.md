@@ -1,6 +1,16 @@
 # 6502os
 A simple OS that can compute mathematical expressions. This needs the original version of Ben Eater's computer without any modifications, additions, or address changes. Incompatible (for now) with Ben Eater's VGA video card.
 
+# Compilation and writing
+
+I have prepared a batch file. Simply enter
+
+    write.bat
+
+into Windows CMD or click on Run.
+
+The script will automatcally compile and write it for you, but vasm and minipro must be added to the PATH system variable.
+
 # ADDRESSES
 R0-R15 = $0000-$000f
 
