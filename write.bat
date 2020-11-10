@@ -1,3 +1,9 @@
+@ECHO OFF
+ECHO Compiling...
 vasm6502_oldstyle -dotdir -esc boot.s
+ECHO Writing...
 minipro -p AT28C256 -w a.out
+ECHO Cleaning up...
 del a.out
+ECHO Done.
+PAUSE
