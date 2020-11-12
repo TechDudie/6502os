@@ -11,6 +11,12 @@ into Windows CMD or click on Run.
 
 The script will automatcally compile and write it for you, but vasm and minipro must be added to the PATH system variable.
 
+There is also a .sh file if you need it.
+
+    sh write.sh
+
+on MacOS.
+
 # ADDRESSES
 R0-R15 = $0000-$000f
 
