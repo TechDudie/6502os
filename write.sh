@@ -29,5 +29,5 @@ if ! [ -x "$(command -v minipro)" ]; then
 fi
 minipro -p AT28C256 -w a.out
 printf "%s\n" "Cleaning up..."
-del a.out
+rm a.out
 printf "%s\n" "Done."
