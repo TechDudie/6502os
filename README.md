@@ -45,4 +45,4 @@ Data Direction A = $6003
 Data Direction B = $6002
 
 # DISCLAIMER:
-I do not have a computer to test this out so please report all issues no matter how big or small.
+I do not have a computer to test this out so please report all issues no matter how big or small. However, I am in the process of building one. If you want to support Ben Eater, buy a 6502 computer kit [here](https://eater.net/6502 "Ben Eater 6502")
